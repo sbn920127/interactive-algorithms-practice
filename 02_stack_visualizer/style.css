@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+    background: #f7f7f7;
+    text-align: center;
+    padding: 2rem;
+}
+
+.app {
+    max-width: 400px;
+    margin: auto;
+}
+
+.stack {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    border: 2px dashed #aaa;
+    height: 300px;
+    padding: 10px;
+    overflow-y: auto;
+    margin-top: 20px;
+    background: #fff;
+}
